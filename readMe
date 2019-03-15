@@ -13,10 +13,14 @@ and realize these patterns. By doing so, these patterns increase flexibility in 
 > Observer
 > Strategy Pattern
 > Template Pattern
-> Memento Pattern
 > Visitor Pattern
+  The visitor pattern consists of two parts:
+  - a method called Visit() which is implemented by the visitor and is called for every element in the data structure.
+  - visitable classes providing Accept() methods that accept a visitor.
+> Mediator
+> Command
+  
 
+##### Structural Design Patterns ######
 
-##### Behavioral Design Patterns ######
-
-##### Behavioral Design Patterns ######
+##### Creational Design Patterns ######
