@@ -11,7 +11,7 @@ behavioral design patterns are design patterns that identify common communicatio
 and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
 > Observer
-> Strategy Pattern
+> Strategy Pattern: Encapsulates what's keep changing.
 > Template Pattern
 > Visitor Pattern
   The visitor pattern consists of two parts:

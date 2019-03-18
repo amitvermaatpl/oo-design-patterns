@@ -3,7 +3,7 @@ package com.design.behavioral.observor;
 /*
  * OBSERVER Pattern: says, if one object is modified, its dependent objects are to be notified automatically.
  */
-public class ObserverDemo {
+public class ObserverDemo1 {
 
 	/*
 	 * USE_CASE: If product available then notify customers.

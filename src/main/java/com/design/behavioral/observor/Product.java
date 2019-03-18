@@ -6,7 +6,7 @@ import java.util.List;
 /* If product is available notify the customers */
 public class Product{
 
-	List<Observer> customers = new ArrayList<Observer>();
+	List<Observer1> customers = new ArrayList<Observer1>();
 	String availability;
 	
 	
@@ -19,16 +19,16 @@ public class Product{
 		notifyObservers();
 	}
 
-	public void attach(Observer customer) {
+	public void attach(Observer1 customer) {
 		customers.add(customer);
 	}
 	
-	public void detach(Observer customer) {
+	public void detach(Observer1 customer) {
 		customers.remove(customer);
 	}
 	
 	public void notifyObservers() {
-		for(Observer customer : customers) {
+		for(Observer1 customer : customers) {
 			customer.update();
 		}
 	}

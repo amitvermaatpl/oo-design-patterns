@@ -1,6 +1,6 @@
 package com.design.behavioral.observor;
 
-public class Customer extends Observer{
+public class Customer extends Observer1{
 	
 	String personName;
 
