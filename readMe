@@ -3,6 +3,10 @@ https://www.java-success.com/30-java-code-review-checklist-items/
 
 ### JAVA Design Principles ###
 https://stackify.com/solid-design-principles/
+https://stackify.com/design-patterns-explained-adapter-pattern-with-code-examples/
+
+####### MISC Design Patterns #########
+MVC, Dependency Injection and DAO Pattern etc.
 
 ##### Draw the UML diagram of the patterns #####
 
@@ -22,5 +26,22 @@ and realize these patterns. By doing so, these patterns increase flexibility in 
   
 
 ##### Structural Design Patterns ######
+> Facade
+> Adapter
+> Proxy
+> Decorator
 
 ##### Creational Design Patterns ######
+
+
+================= MUST KNOW ================
+Builder ( While Writing Unit Tests ):  https://medium.com/@arleypadua/builder-pattern-applied-to-testing-60e009c427c6
+Prototype ( Cloning )
+Adapter ( asList , toString )
+Chain Of Responsibility ( Exception handling, logging )
+Singleton
+Factory ( Action Mapping )
+Proxy
+Observer ( Event Listener )
+MVC ( Web frameworks )
+Filter ( Criteria )
