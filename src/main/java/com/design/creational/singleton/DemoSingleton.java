@@ -1,4 +1,4 @@
-package com.apple.singleton.pattern;
+package com.design.creational.singleton;
 
 public class DemoSingleton {
 	public static void main(String[] args) {
